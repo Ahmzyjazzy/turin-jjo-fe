@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  @apply text-gray-400;
+  @apply text-gray-500;
 }
 
 
@@ -28,7 +28,7 @@ button {
 /* hero section */
 .hero-section {
   background-image: url(https://images.pexels.com/photos/285814/pexels-photo-285814.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
-  @apply bg-gray-700 bg-cover bg-no-repeat bg-blend-overlay;
+  @apply bg-gray-600 bg-cover bg-no-repeat bg-blend-overlay;
 }
 /* offer */
 .offer {
@@ -53,8 +53,19 @@ button {
   @apply font-bold text-blue-500 text-sm;
 }
 .offer-subtext {
-  @apply font-semibold text-xs text-gray-800;
+  @apply font-normal text-xs text-gray-800;
 }
 .offer-subtext__location {
-  @apply ml-3 text-gray-400;
+  @apply ml-3 text-gray-500;
+}
+
+/* feature company */
+.feature-company__item {
+  @apply flex flex-col justify-center items-center mb-5;
+}
+.feature-company__item--icon {
+  @apply rounded-full border border-gray-500 w-12 h-12 flex justify-center items-center;
+}
+.feature-company__item--title {
+  @apply font-bold text-xs text-gray-800 mt-2;
 }

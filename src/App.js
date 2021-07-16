@@ -1,5 +1,5 @@
 import './App.css';
-import { FiChevronRight } from 'react-icons/fi'
+import { FiBriefcase, FiChevronRight } from 'react-icons/fi'
 import { BsArrowRight } from 'react-icons/bs'
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
           <button className="btn-primary mt-5">Post Offer Now</button>
         </div>
       </header>
-      <main className="w-full my-12 px-5 md:px-0">
-        <section className="w-full md:w-9/12 md:mx-auto">
+      <main className="w-full px-5 md:px-0 py-8">
+        <section className="w-full md:w-9/12 my-12 md:mx-auto">
           <div className="flex flex-row flex-wrap justify-between items-center py-0 md:py-5">
             <h1 className="heading-2 font-extrabold text-gray-800">Newest Job Offers</h1>
             <a href="#" className="text-blue-500 font-bold text-xs flex flex-row items-center">View all job offers  <BsArrowRight className="ml-1 text-lg" /></a>
@@ -54,7 +54,7 @@ function App() {
             <article className="offer">
               <header>
                 <div>
-                  <h4 className="offer-title">Junior Porject Manager</h4>
+                  <h4 className="offer-title">Junior Project Manager</h4>
                   <p className="offer-subtext">Fronkum <span className="offer-subtext__location">Lublin, Polska</span></p>
                 </div>
                 <span className="font-normal text-xs">1 day ago</span>
@@ -68,7 +68,67 @@ function App() {
               </div>
             </article>
           </section>
-
+        </section>
+        <section className="w-full md:w-9/12 md:mx-auto">
+          <div className="flex flex-row flex-wrap justify-between items-center py-0 md:py-5 mb-5 md:mb-3">
+            <h1 className="heading-2 font-extrabold text-gray-800">Featured Companies</h1>
+          </div>
+          <ul className="grid grid-rows-4 grid-cols-2 md:grid-rows-1 md:grid-cols-9 gap-2">
+            <li className="feature-company__item">
+              <div className="feature-company__item--icon">
+                <FiBriefcase className="text-lg" />
+              </div>
+              <p className="feature-company__item--title">GrandParade</p>
+            </li>
+            <li className="feature-company__item">
+              <div className="feature-company__item--icon">
+                <FiBriefcase className="text-lg" />
+              </div>
+              <p className="feature-company__item--title">GrandParade</p>
+            </li>
+            <li className="feature-company__item">
+              <div className="feature-company__item--icon">
+                <FiBriefcase className="text-lg" />
+              </div>
+              <p className="feature-company__item--title">GrandParade</p>
+            </li>
+            <li className="feature-company__item">
+              <div className="feature-company__item--icon">
+                <FiBriefcase className="text-lg" />
+              </div>
+              <p className="feature-company__item--title">GrandParade</p>
+            </li>
+            <li className="feature-company__item">
+              <div className="feature-company__item--icon">
+                <FiBriefcase className="text-lg" />
+              </div>
+              <p className="feature-company__item--title">GrandParade</p>
+            </li>
+            <li className="feature-company__item">
+              <div className="feature-company__item--icon">
+                <FiBriefcase className="text-lg" />
+              </div>
+              <p className="feature-company__item--title">GrandParade</p>
+            </li>
+            <li className="feature-company__item">
+              <div className="feature-company__item--icon">
+                <FiBriefcase className="text-lg" />
+              </div>
+              <p className="feature-company__item--title">GrandParade</p>
+            </li>
+            <li className="feature-company__item">
+              <div className="feature-company__item--icon">
+                <FiBriefcase className="text-lg" />
+              </div>
+              <p className="feature-company__item--title">GrandParade</p>
+            </li>
+            <li className="feature-company__item">
+              <div className="feature-company__item--icon">
+                <FiBriefcase className="text-lg" />
+              </div>
+              <p className="feature-company__item--title">GrandParade</p>
+            </li>
+          </ul>
         </section>
       </main>
     </div>
