@@ -73,7 +73,7 @@ function App() {
           <div className="flex flex-row flex-wrap justify-between items-center py-0 md:py-5 mb-5 md:mb-3">
             <h1 className="heading-2 font-extrabold text-gray-800">Featured Companies</h1>
           </div>
-          <ul className="grid grid-rows-4 grid-cols-3 md:grid-rows-1 md:grid-cols-9 gap-2">
+          <ul className="grid grid-rows-3 grid-cols-3 md:grid-rows-1 md:grid-cols-9 gap-2">
             <li className="feature-company__item">
               <div className="feature-company__item--icon">
                 <FiBriefcase className="text-lg" />
