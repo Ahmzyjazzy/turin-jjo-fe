@@ -29,6 +29,7 @@ button {
 .hero-section {
   background-image: url(https://images.pexels.com/photos/48753/pexels-photo-48753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   @apply bg-gray-600 bg-cover bg-no-repeat bg-blend-overlay;
+  background-position-y: -100px;
 }
 
 /* offer */
@@ -68,5 +69,11 @@ button {
   @apply rounded-full border border-gray-500 w-12 h-12 flex justify-center items-center;
 }
 .feature-company__item--title {
-  @apply font-bold text-xs text-gray-800 mt-2;
+  @apply font-bold text-xs text-gray-800 mt-2 w-full truncate text-center;
+}
+
+@media screen and (max-width: 640px) {
+  .hero-section {
+    background-position-y: top;
+  }
 }
