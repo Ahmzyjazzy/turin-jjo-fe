@@ -16,7 +16,7 @@ function App() {
         <section className="w-full md:w-9/12 my-12 md:mx-auto">
           <div className="flex flex-row flex-wrap justify-between items-center py-0 md:py-5">
             <h1 className="heading-2 font-extrabold text-gray-800">Newest Job Offers</h1>
-            <a href="#" className="text-blue-500 font-bold text-xs flex flex-row items-center">View all job offers  <BsArrowRight className="ml-1 text-lg" /></a>
+            <a href="/" className="text-blue-500 font-bold text-xs flex flex-row items-center">View all job offers  <BsArrowRight className="ml-1 text-lg" /></a>
           </div>
           <section className="divide-y-2 md:divide-y-0 md:divide-x-2 divide-solid divide-gray-200 grid md:grid-cols-3 w-full">
             <article className="offer">
@@ -84,49 +84,49 @@ function App() {
               <div className="feature-company__item--icon">
                 <FiBriefcase className="text-lg" />
               </div>
-              <p className="feature-company__item--title">GrandParade</p>
+              <p className="feature-company__item--title">Seargin</p>
             </li>
             <li className="feature-company__item">
               <div className="feature-company__item--icon">
                 <FiBriefcase className="text-lg" />
               </div>
-              <p className="feature-company__item--title">GrandParade</p>
+              <p className="feature-company__item--title">DEX Ventures</p>
             </li>
             <li className="feature-company__item">
               <div className="feature-company__item--icon">
                 <FiBriefcase className="text-lg" />
               </div>
-              <p className="feature-company__item--title">GrandParade</p>
+              <p className="feature-company__item--title">NBC</p>
             </li>
             <li className="feature-company__item">
               <div className="feature-company__item--icon">
                 <FiBriefcase className="text-lg" />
               </div>
-              <p className="feature-company__item--title">GrandParade</p>
+              <p className="feature-company__item--title">SVT SP Zoo</p>
             </li>
             <li className="feature-company__item">
               <div className="feature-company__item--icon">
                 <FiBriefcase className="text-lg" />
               </div>
-              <p className="feature-company__item--title">GrandParade</p>
+              <p className="feature-company__item--title">DG Tech</p>
             </li>
             <li className="feature-company__item">
               <div className="feature-company__item--icon">
                 <FiBriefcase className="text-lg" />
               </div>
-              <p className="feature-company__item--title">GrandParade</p>
+              <p className="feature-company__item--title">PickSaaS</p>
             </li>
             <li className="feature-company__item">
               <div className="feature-company__item--icon">
                 <FiBriefcase className="text-lg" />
               </div>
-              <p className="feature-company__item--title">GrandParade</p>
+              <p className="feature-company__item--title">BlackRose</p>
             </li>
             <li className="feature-company__item">
               <div className="feature-company__item--icon">
                 <FiBriefcase className="text-lg" />
               </div>
-              <p className="feature-company__item--title">GrandParade</p>
+              <p className="feature-company__item--title">FrontKom</p>
             </li>
           </ul>
         </section>
