@@ -27,7 +27,7 @@ button {
 
 /* hero section */
 .hero-section {
-  background-image: url(https://images.pexels.com/photos/285814/pexels-photo-285814.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-image: url(https://images.pexels.com/photos/48753/pexels-photo-48753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   @apply bg-gray-600 bg-cover bg-no-repeat bg-blend-overlay;
 }
 /* offer */

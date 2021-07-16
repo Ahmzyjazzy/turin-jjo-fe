@@ -8,7 +8,7 @@ function App() {
       <header className="hero-section w-full px-5 md:px-0 flex flex-row items-center h-60 bg-gray-500">
         <div className="w-full md:w-9/12 md:mx-auto flex flex-col items-start">
           <h1 className="heading-1 font-semibold text-white">Juniors make IT work.</h1>
-          <p className="text-xs font-semibold leading-snug text-white">Hire and invest in highly skilled juniors now</p>
+          <p className="text-xs font-semibold leading-snug text-white mt-3">Hire and invest in highly skilled juniors now</p>
           <button className="btn-primary mt-5">Post Offer Now</button>
         </div>
       </header>
