@@ -63,7 +63,7 @@ export const topThreeRecentOffers = [
     location: 'Wrclaw, Polska',
     info: 'I am currently looking for a Java Developer. Project for Public Sector Location: Wroclaw (during the pandemic remote work)',
     networth: '$ up to PLN 550 net / MD B2B',
-    timeago: 'I day ago'
+    timeago: '1 day ago'
   },
   {
     id: 4,
@@ -72,7 +72,7 @@ export const topThreeRecentOffers = [
     location: 'Wrclaw, Polska',
     info: 'I am currently looking for a Java Developer. Project for Public Sector Location: Wroclaw (during the pandemic remote work)',
     networth: '$ up to PLN 550 net / MD B2B',
-    timeago: 'I day ago'
+    timeago: '2 days ago'
   }
 ]
 
