@@ -1,0 +1,6 @@
+.section-title__container {
+  @apply flex flex-row flex-wrap justify-between items-center py-0 md:py-5;
+}
+.section-title__container--text {
+  @apply font-extrabold text-gray-800;
+}

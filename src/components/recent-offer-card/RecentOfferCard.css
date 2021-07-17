@@ -1,0 +1,28 @@
+/* offer */
+.offer {
+  @apply flex flex-col justify-start px-0 relative py-8 md:px-0 md:mb-0;
+}
+.offer:first-child{
+  @apply md:pr-5;
+}
+.offer:nth-child(even){
+  @apply md:px-5;
+}
+.offer:last-child {
+  @apply md:pl-5;
+}
+.offer header {
+  @apply flex justify-between mb-5;
+}
+.offer header {
+  @apply flex justify-between mb-5;
+}
+.offer-title {
+  @apply font-bold text-blue-500 text-sm;
+}
+.offer-subtext {
+  @apply font-normal text-xs text-gray-800;
+}
+.offer-subtext__location {
+  @apply ml-3 text-gray-500;
+}

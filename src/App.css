@@ -7,7 +7,6 @@ body {
   @apply text-gray-500;
 }
 
-
 /* typography */
 .heading-1 {
   @apply text-4xl;
@@ -16,64 +15,10 @@ body {
   @apply text-2xl;
 }
 
-
 /* buttons */
 button {
   @apply outline-none px-3 py-2 rounded-sm shadow-md text-xs font-semibold; 
 }
 .btn-primary {
  @apply bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 ring-blue-500; 
-}
-
-/* hero section */
-.hero-section {
-  background-image: url(https://images.pexels.com/photos/48753/pexels-photo-48753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  @apply bg-gray-600 bg-cover bg-no-repeat bg-blend-overlay;
-  background-position-y: -100px;
-}
-
-/* offer */
-.offer {
-  @apply flex flex-col justify-start px-0 relative py-8 md:px-0 md:mb-0;
-}
-.offer:first-child{
-  @apply md:pr-5;
-}
-.offer:nth-child(even){
-  @apply md:px-5;
-}
-.offer:last-child {
-  @apply md:pl-5;
-}
-.offer header {
-  @apply flex justify-between mb-5;
-}
-.offer header {
-  @apply flex justify-between mb-5;
-}
-.offer-title {
-  @apply font-bold text-blue-500 text-sm;
-}
-.offer-subtext {
-  @apply font-normal text-xs text-gray-800;
-}
-.offer-subtext__location {
-  @apply ml-3 text-gray-500;
-}
-
-/* feature company */
-.feature-company__item {
-  @apply flex flex-col justify-center items-center mb-5;
-}
-.feature-company__item--icon {
-  @apply rounded-full border border-gray-500 w-12 h-12 flex justify-center items-center;
-}
-.feature-company__item--title {
-  @apply font-bold text-xs text-gray-800 mt-2 w-full truncate text-center;
-}
-
-@media screen and (max-width: 640px) {
-  .hero-section {
-    background-position-y: top;
-  }
 }
