@@ -9,14 +9,12 @@ import RecentOfferCard from './components/recent-offer-card/RecentOfferCard';
 import SectionTitle from './components/section-title/SectionTitle';
 
 function App() {
-
-  const { recentOffersList, featuredCompaniesList } = useContext(DataContext)
-
+  const { recentOffersList, featuredCompaniesList } = useContext(DataContext);
   return (
     <div className="App">
       <Hero />
       <main className="w-full px-5 md:px-0 py-8">
-        <section className="w-full md:w-9/12 my-12 md:mx-auto">
+        <section className="section-center my-12">
           <SectionTitle
             title='Newest Job Offers'
             hasMore={recentOffersList && recentOffersList.length > 3}
@@ -30,10 +28,10 @@ function App() {
             }}
           />
           <section className="divide-y-2 md:divide-y-0 md:divide-x-2 divide-solid divide-gray-200 grid md:grid-cols-3 w-full">
-            {recentOffersList && recentOffersList.map(offer => <RecentOfferCard offer={offer} key={offer.id} />)}
+            {recentOffersList && recentOffersList.slice(0, 3).map(offer => <RecentOfferCard offer={offer} key={offer.id} />)}
           </section>
         </section>
-        <section className="w-full md:w-9/12 md:mx-auto">
+        <section className="section-center">
           <SectionTitle
             title='Featured Companies'
             hasMore={featuredCompaniesList && featuredCompaniesList.length > 9}
@@ -46,7 +44,7 @@ function App() {
               )
             }}
           />
-          <ul className="grid grid-rows-3 grid-cols-3 md:grid-rows-1 md:grid-cols-9 gap-2">
+          <ul className="grid grid-rows-3 grid-cols-3 md:grid-rows-1 md:grid-cols-9 gap-2 mt-5">
             {featuredCompaniesList && featuredCompaniesList.map(company => <FeatureCompany company={company} key={company.id} />)}
           </ul>
         </section>
